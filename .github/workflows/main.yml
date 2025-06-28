@@ -41,7 +41,7 @@ jobs:
           }
           
           async function sendTelegramMessage(chatId, message) {
-            await axios.post('https://api.telegram.org/bot${process.env.TELEGRAM_BOT_TOKEN}/sendMessage', {
+            await axios.post(`https://api.telegram.org/bot${process.env.TELEGRAM_BOT_TOKEN}/sendMessage`, {
               chat_id: chatId,
               text: message
             });
@@ -63,12 +63,12 @@ jobs:
               
               // Commit codes.json
               await axios.put(
-                'https://api.github.com/repos/${{ github.repository }}/contents/codes.json',
+                `https://api.github.com/repos/${{ github.repository }}/contents/codes.json`,
                 {
                   message: 'Update codes.json',
                   content: Buffer.from(fs.readFileSync(codesFile)).toString('base64'),
-                  sha: (await axios.get('https://api.github.com/repos/${{ github.repository }}/contents/codes.json', {
-                    headers: { Authorization: 'Bearer ${{ secrets.TOKEN }}' }
+                  sha: (await axios.get(`https://api.github.com/repos/${{ github.repository }}/contents/codes.json`, {
+                    headers: { Authorization: `Bearer ${{ secrets.TOKEN }}` }
                   })).data.sha
                 },
                 { headers: { Authorization: 'Bearer ${{ secrets.TOKEN }}' } }
@@ -89,15 +89,15 @@ jobs:
                 
                 // Commit users.json
                 await axios.put(
-                  'https://api.github.com/repos/${{ github.repository }}/contents/users.json',
+                  `https://api.github.com/repos/${{ github.repository }}/contents/users.json`,
                   {
                     message: 'Update users.json',
                     content: Buffer.from(fs.readFileSync(usersFile)).toString('base64'),
-                    sha: (await axios.get('https://api.github.com/repos/${{ github.repository }}/contents/users.json', {
-                      headers: { Authorization: 'Bearer ${{ secrets.TOKEN }}' }
+                    sha: (await axios.get(`https://api.github.com/repos/${{ github.repository }}/contents/users.json`, {
+                      headers: { Authorization: `Bearer ${{ secrets.TOKEN }}` }
                     })).data.sha
                   },
-                  { headers: { Authorization: 'Bearer ${{ secrets.TOKEN }}' } }
+                  { headers: { Authorization: `Bearer ${{ secrets.TOKEN }}` } }
                 );
                 
                 // Remove code
@@ -106,15 +106,15 @@ jobs:
                 
                 // Commit codes.json
                 await axios.put(
-                  'https://api.github.com/repos/${{ github.repository }}/contents/codes.json',
+                  `https://api.github.com/repos/${{ github.repository }}/contents/codes.json`,
                   {
                     message: 'Update codes.json',
                     content: Buffer.from(fs.readFileSync(codesFile)).toString('base64'),
-                    sha: (await axios.get('https://api.github.com/repos/${{ github.repository }}/contents/codes.json', {
-                      headers: { Authorization: 'Bearer ${{ secrets.TOKEN }}' }
+                    sha: (await axios.get(`https://api.github.com/repos/${{ github.repository }}/contents/codes.json`, {
+                      headers: { Authorization: `Bearer ${{ secrets.TOKEN }}` }
                     })).data.sha
                   },
-                  { headers: { Authorization: 'Bearer ${{ secrets.TOKEN }}' } }
+                  { headers: { Authorization: `Bearer ${{ secrets.TOKEN }}` } }
                 );
               }
             }
@@ -127,15 +127,15 @@ jobs:
               
               // Commit listings.json
               await axios.put(
-                'https://api.github.com/repos/${{ github.repository }}/contents/listings.json',
+                `https://api.github.com/repos/${{ github.repository }}/contents/listings.json`,
                 {
                   message: 'Update listings.json',
                   content: Buffer.from(fs.readFileSync(listingsFile)).toString('base64'),
-                  sha: (await axios.get('https://api.github.com/repos/${{ github.repository }}/contents/listings.json', {
-                    headers: { Authorization: 'Bearer ${{ secrets.TOKEN }}' }
+                  sha: (await axios.get(`https://api.github.com/repos/${{ github.repository }}/contents/listings.json`, {
+                    headers: { Authorization: `Bearer ${{ secrets.TOKEN }}` }
                   })).data.sha
                 },
-                { headers: { Authorization: 'Bearer ${{ secrets.TOKEN }}' } }
+                { headers: { Authorization: `Bearer ${{ secrets.TOKEN }}` } }
               );
             }
           }
