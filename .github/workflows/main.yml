@@ -1,0 +1,147 @@
+name: Handle Authentication and Listings
+on:
+  repository_dispatch:
+    types: [send-code, verify-code, create-listing]
+
+jobs:
+  handle-request:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: npm install axios
+
+      - name: Handle request
+        env:
+          TOKEN: ${{ secrets.TOKEN }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        run: |
+          node -e "
+          const fs = require('fs');
+          const axios = require('axios');
+          
+          const event = JSON.parse(process.env.GITHUB_EVENT);
+          const type = event.action;
+          const payload = event.client_payload;
+          
+          const usersFile = 'users.json';
+          const codesFile = 'codes.json';
+          const listingsFile = 'listings.json';
+          
+          // Initialize files if they don't exist
+          if (!fs.existsSync(codesFile)) {
+            fs.writeFileSync(codesFile, '[]');
+          }
+          
+          async function sendTelegramMessage(chatId, message) {
+            await axios.post('https://api.telegram.org/bot${process.env.TELEGRAM_BOT_TOKEN}/sendMessage', {
+              chat_id: chatId,
+              text: message
+            });
+          }
+          
+          async function main() {
+            if (type === 'send-code') {
+              const { phoneNumber, telegramId } = payload;
+              const code = Math.floor(100000 + Math.random() * 900000).toString();
+              
+              // Save code
+              let codes = JSON.parse(fs.readFileSync(codesFile));
+              codes = codes.filter(c => c.phoneNumber !== phoneNumber);
+              codes.push({ phoneNumber, telegramId, code, createdAt: new Date().toISOString() });
+              fs.writeFileSync(codesFile, JSON.stringify(codes, null, 2));
+              
+              // Send code via Telegram
+              await sendTelegramMessage(telegramId, 'Ваш код подтверждения: ' + code);
+              
+              // Commit codes.json
+              await axios.put(
+                'https://api.github.com/repos/${{ github.repository }}/contents/codes.json',
+                {
+                  message: 'Update codes.json',
+                  content: Buffer.from(fs.readFileSync(codesFile)).toString('base64'),
+                  sha: (await axios.get('https://api.github.com/repos/${{ github.repository }}/contents/codes.json', {
+                    headers: { Authorization: 'Bearer ${{ secrets.TOKEN }}' }
+                  })).data.sha
+                },
+                { headers: { Authorization: 'Bearer ${{ secrets.TOKEN }}' } }
+              );
+            }
+            
+            if (type === 'verify-code') {
+              const { phoneNumber, code } = payload;
+              const codes = JSON.parse(fs.readFileSync(codesFile));
+              const match = codes.find(c => c.phoneNumber === phoneNumber && c.code === code);
+              
+              if (match) {
+                // Save user
+                let users = JSON.parse(fs.readFileSync(usersFile));
+                users = users.filter(u => u.phoneNumber !== phoneNumber);
+                users.push({ phoneNumber, telegramId: match.telegramId, createdAt: new Date().toISOString() });
+                fs.writeFileSync(usersFile, JSON.stringify(users, null, 2));
+                
+                // Commit users.json
+                await axios.put(
+                  'https://api.github.com/repos/${{ github.repository }}/contents/users.json',
+                  {
+                    message: 'Update users.json',
+                    content: Buffer.from(fs.readFileSync(usersFile)).toString('base64'),
+                    sha: (await axios.get('https://api.github.com/repos/${{ github.repository }}/contents/users.json', {
+                      headers: { Authorization: 'Bearer ${{ secrets.TOKEN }}' }
+                    })).data.sha
+                  },
+                  { headers: { Authorization: 'Bearer ${{ secrets.TOKEN }}' } }
+                );
+                
+                // Remove code
+                codes = codes.filter(c => c.phoneNumber !== phoneNumber);
+                fs.writeFileSync(codesFile, JSON.stringify(codes, null, 2));
+                
+                // Commit codes.json
+                await axios.put(
+                  'https://api.github.com/repos/${{ github.repository }}/contents/codes.json',
+                  {
+                    message: 'Update codes.json',
+                    content: Buffer.from(fs.readFileSync(codesFile)).toString('base64'),
+                    sha: (await axios.get('https://api.github.com/repos/${{ github.repository }}/contents/codes.json', {
+                      headers: { Authorization: 'Bearer ${{ secrets.TOKEN }}' }
+                    })).data.sha
+                  },
+                  { headers: { Authorization: 'Bearer ${{ secrets.TOKEN }}' } }
+                );
+              }
+            }
+            
+            if (type === 'create-listing') {
+              const { title, price, description } = payload;
+              let listings = JSON.parse(fs.readFileSync(listingsFile));
+              listings.push({ id: Date.now().toString(), title, price: parseFloat(price), description, createdAt: new Date().toISOString() });
+              fs.writeFileSync(listingsFile, JSON.stringify(listings, null, 2));
+              
+              // Commit listings.json
+              await axios.put(
+                'https://api.github.com/repos/${{ github.repository }}/contents/listings.json',
+                {
+                  message: 'Update listings.json',
+                  content: Buffer.from(fs.readFileSync(listingsFile)).toString('base64'),
+                  sha: (await axios.get('https://api.github.com/repos/${{ github.repository }}/contents/listings.json', {
+                    headers: { Authorization: 'Bearer ${{ secrets.TOKEN }}' }
+                  })).data.sha
+                },
+                { headers: { Authorization: 'Bearer ${{ secrets.TOKEN }}' } }
+              );
+            }
+          }
+          
+          main().catch(err => {
+            console.error(err);
+            process.exit(1);
+          });
+          "
