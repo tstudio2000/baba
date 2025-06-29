@@ -1,1 +1,24 @@
-[]
+[
+  {
+    "id": "1751198444097",
+    "title": "asd",
+    "category": "electronics",
+    "subcategory": "computers",
+    "photos": [
+      "https://raw.githubusercontent.com/tstudio2000/baba/main/images/1751198444097_1.jpg",
+      "https://raw.githubusercontent.com/tstudio2000/baba/main/images/1751198444097_2.jpg"
+    ],
+    "dealType": "sell",
+    "price": 12615124,
+    "currency": "USD",
+    "isNegotiable": true,
+    "sellerType": "private",
+    "autoRenew": true,
+    "location": "tashkent_city",
+    "contactName": "Andrew Kasual",
+    "contactEmail": "",
+    "contactPhone": "+998 8999175685",
+    "createdAt": "2025-06-29T12:00:46.326Z",
+    "expiresAt": "2025-07-29T12:00:46.326Z"
+  }
+]
