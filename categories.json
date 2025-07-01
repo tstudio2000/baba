@@ -1,6 +1,91 @@
 {
-  "electronics": ["phones", "computers", "appliances"],
-  "vehicles": ["cars", "motorcycles", "trucks"],
-  "real_estate": ["apartments", "houses", "land"],
-  "other": ["misc"]
+  "electronics": {
+    "phones": {
+      "smartphones": "smartphones",
+      "feature_phones": "feature_phones",
+      "accessories": "accessories"
+    },
+    "computers": {
+      "video_cards": "video_cards",
+      "motherboards": "motherboards",
+      "monitors": "monitors",
+      "laptops": "laptops",
+      "desktops": "desktops",
+      "peripherals": "peripherals"
+    },
+    "appliances": {
+      "refrigerators": "refrigerators",
+      "washing_machines": "washing_machines",
+      "microwaves": "microwaves"
+    }
+  },
+  "vehicles": {
+    "cars": {
+      "sedans": "sedans",
+      "suvs": "suvs",
+      "trucks": "trucks"
+    },
+    "motorcycles": {
+      "sport_bikes": "sport_bikes",
+      "cruisers": "cruisers",
+      "scooters": "scooters"
+    },
+    "trucks": {
+      "light_trucks": "light_trucks",
+      "heavy_trucks": "heavy_trucks"
+    }
+  },
+  "real_estate": {
+    "apartments": {
+      "one_bedroom": "one_bedroom",
+      "two_bedroom": "two_bedroom",
+      "studios": "studios"
+    },
+    "houses": {
+      "single_family": "single_family",
+      "townhouses": "townhouses"
+    },
+    "land": {
+      "residential": "residential",
+      "commercial": "commercial"
+    }
+  },
+  "fashion": {
+    "clothing": {
+      "mens_clothing": "mens_clothing",
+      "womens_clothing": "womens_clothing",
+      "kids_clothing": "kids_clothing"
+    },
+    "accessories": {
+      "jewelry": "jewelry",
+      "bags": "bags",
+      "shoes": "shoes"
+    }
+  },
+  "home_garden": {
+    "furniture": {
+      "sofas": "sofas",
+      "tables": "tables",
+      "beds": "beds"
+    },
+    "garden": {
+      "plants": "plants",
+      "tools": "tools"
+    }
+  },
+  "services": {
+    "repair": {
+      "electronics_repair": "electronics_repair",
+      "car_repair": "car_repair"
+    },
+    "education": {
+      "tutoring": "tutoring",
+      "courses": "courses"
+    }
+  },
+  "other": {
+    "misc": {
+      "general": "general"
+    }
+  }
 }
