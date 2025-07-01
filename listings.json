@@ -20,5 +20,28 @@
     "contactPhone": "+998 8999175685",
     "createdAt": "2025-06-29T12:00:46.326Z",
     "expiresAt": "2025-07-29T12:00:46.326Z"
+  },
+  {
+    "id": "1751373326012",
+    "title": "фывфывыфвфывыффыа",
+    "description": "афафафаваываываывав",
+    "category": "electronics",
+    "subcategory": "computers",
+    "photos": [
+      "https://raw.githubusercontent.com/tstudio2000/baba/main/images/1751373326012_1.jpg",
+      "https://raw.githubusercontent.com/tstudio2000/baba/main/images/1751373326012_2.jpg"
+    ],
+    "dealType": "sell",
+    "price": 221241342323223,
+    "currency": "UZS",
+    "isNegotiable": true,
+    "sellerType": "private",
+    "autoRenew": true,
+    "location": "bektemir",
+    "contactName": "122",
+    "contactEmail": "ыфвф",
+    "contactPhone": "ыфв21412",
+    "createdAt": "2025-07-01T12:35:28.659Z",
+    "expiresAt": "2025-07-31T12:35:28.659Z"
   }
 ]
