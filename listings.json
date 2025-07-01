@@ -23,8 +23,8 @@
   },
   {
     "id": "1751373326012",
-    "title": "фывфывыфвфывыффыа",
-    "description": "афафафаваываываывав",
+    "title": "ÑÑÐ²ÑÑÐ²ÑÑÐ²ÑÑÐ²ÑÑÑÑÐ°",
+    "description": "Ð°ÑÐ°ÑÐ°ÑÐ°Ð²Ð°ÑÐ²Ð°ÑÐ²Ð°ÑÐ²Ð°Ð²",
     "category": "electronics",
     "subcategory": "computers",
     "photos": [
@@ -39,9 +39,32 @@
     "autoRenew": true,
     "location": "bektemir",
     "contactName": "122",
-    "contactEmail": "ыфвф",
-    "contactPhone": "ыфв21412",
+    "contactEmail": "ÑÑÐ²Ñ",
+    "contactPhone": "ÑÑÐ²21412",
     "createdAt": "2025-07-01T12:35:28.659Z",
     "expiresAt": "2025-07-31T12:35:28.659Z"
+  },
+  {
+    "id": "1751375746165",
+    "title": "dasdadsadфқвф1вфяфқайч",
+    "description": "чясйуйчфқфвўзғз9ўшҳ",
+    "category": "electronics",
+    "subcategory": "phones",
+    "photos": [
+      "https://raw.githubusercontent.com/tstudio2000/baba/main/images/1751375746165_1.jpg",
+      "https://raw.githubusercontent.com/tstudio2000/baba/main/images/1751375746165_2.jpg"
+    ],
+    "dealType": "free",
+    "price": null,
+    "currency": null,
+    "isNegotiable": false,
+    "sellerType": null,
+    "autoRenew": true,
+    "location": "asaka",
+    "contactName": "12в",
+    "contactEmail": "3вфқфчф",
+    "contactPhone": "125625123123",
+    "createdAt": "2025-07-01T13:15:48.813Z",
+    "expiresAt": "2025-07-31T13:15:48.813Z"
   }
 ]
