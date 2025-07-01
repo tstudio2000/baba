@@ -23,8 +23,8 @@
   },
   {
     "id": "1751373326012",
-    "title": "ÑÑÐ²ÑÑÐ²ÑÑÐ²ÑÑÐ²ÑÑÑÑÐ°",
-    "description": "Ð°ÑÐ°ÑÐ°ÑÐ°Ð²Ð°ÑÐ²Ð°ÑÐ²Ð°ÑÐ²Ð°Ð²",
+    "title": "ÃÂÃÂÃÂ²ÃÂÃÂÃÂ²ÃÂÃÂÃÂ²ÃÂÃÂÃÂ²ÃÂÃÂÃÂÃÂÃÂ°",
+    "description": "ÃÂ°ÃÂÃÂ°ÃÂÃÂ°ÃÂÃÂ°ÃÂ²ÃÂ°ÃÂÃÂ²ÃÂ°ÃÂÃÂ²ÃÂ°ÃÂÃÂ²ÃÂ°ÃÂ²",
     "category": "electronics",
     "subcategory": "computers",
     "photos": [
@@ -39,15 +39,15 @@
     "autoRenew": true,
     "location": "bektemir",
     "contactName": "122",
-    "contactEmail": "ÑÑÐ²Ñ",
-    "contactPhone": "ÑÑÐ²21412",
+    "contactEmail": "ÃÂÃÂÃÂ²ÃÂ",
+    "contactPhone": "ÃÂÃÂÃÂ²21412",
     "createdAt": "2025-07-01T12:35:28.659Z",
     "expiresAt": "2025-07-31T12:35:28.659Z"
   },
   {
     "id": "1751375746165",
-    "title": "dasdadsadфқвф1вфяфқайч",
-    "description": "чясйуйчфқфвўзғз9ўшҳ",
+    "title": "dasdadsadÑÒÐ²Ñ1Ð²ÑÑÑÒÐ°Ð¹Ñ",
+    "description": "ÑÑÑÐ¹ÑÐ¹ÑÑÒÑÐ²ÑÐ·ÒÐ·9ÑÑÒ³",
     "category": "electronics",
     "subcategory": "phones",
     "photos": [
@@ -61,10 +61,32 @@
     "sellerType": null,
     "autoRenew": true,
     "location": "asaka",
-    "contactName": "12в",
-    "contactEmail": "3вфқфчф",
+    "contactName": "12Ð²",
+    "contactEmail": "3Ð²ÑÒÑÑÑ",
     "contactPhone": "125625123123",
     "createdAt": "2025-07-01T13:15:48.813Z",
     "expiresAt": "2025-07-31T13:15:48.813Z"
+  },
+  {
+    "id": "1751377467461",
+    "title": "adsasfa",
+    "description": "121ddas121ddas121ddas121ddas121ddas121ddas 121ddas\n121ddas121ddas121ddas121ddas121ddas121ddas121ddas121ddas121ddas121ddas121ddas121ddas121ddas121ddas121ddas121ddas121ddas",
+    "category": "electronics",
+    "subcategory": "phones",
+    "photos": [
+      "https://raw.githubusercontent.com/tstudio2000/baba/main/images/1751377467461_1.jpg"
+    ],
+    "dealType": "sell",
+    "price": 51251512521,
+    "currency": "UZS",
+    "isNegotiable": true,
+    "sellerType": "private",
+    "autoRenew": true,
+    "location": "gijduvan",
+    "contactName": "12",
+    "contactEmail": "sadsa",
+    "contactPhone": "12412421",
+    "createdAt": "2025-07-01T13:44:28.887Z",
+    "expiresAt": "2025-07-31T13:44:28.887Z"
   }
 ]
