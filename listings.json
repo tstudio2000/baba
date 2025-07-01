@@ -1,1 +1,24 @@
-[]
+[
+  {
+    "id": "1751387914977",
+    "title": "фывфвфывф",
+    "description": "daывфывфвфвфывфы",
+    "category": "real_estate",
+    "subcategory": "houses",
+    "photos": [
+      "https://raw.githubusercontent.com/tstudio2000/baba/main/images/1751387914977_1.jpg"
+    ],
+    "dealType": "sell",
+    "price": 12526236225235,
+    "currency": "UZS",
+    "isNegotiable": true,
+    "sellerType": "private",
+    "autoRenew": true,
+    "location": "",
+    "contactName": "12ыфв",
+    "contactEmail": "фывф",
+    "contactPhone": "фыв2",
+    "createdAt": "2025-07-01T16:38:36.788Z",
+    "expiresAt": "2025-07-31T16:38:36.789Z"
+  }
+]
