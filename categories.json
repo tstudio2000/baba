@@ -1,0 +1,6 @@
+{
+  "electronics": ["phones", "computers", "appliances"],
+  "vehicles": ["cars", "motorcycles", "trucks"],
+  "real_estate": ["apartments", "houses", "land"],
+  "other": ["misc"]
+}
