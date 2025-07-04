@@ -1,138 +1,139 @@
 {
   "kids_world": {
-    "kids_clothing": "kids_clothing",
-    "kids_shoes": "kids_shoes",
-    "strollers": "strollers",
-    "car_seats": "car_seats",
-    "kids_furniture": "kids_furniture",
-    "toys": "toys",
-    "kids_transport": "kids_transport",
-    "feeding": "feeding",
-    "school_goods": "school_goods",
-    "other_kids": "other_kids"
-  },
-  "real_estate": {
-    "apartments": "apartments",
-    "houses": "houses",
-    "land": "land",
-    "garages": "garages",
-    "commercial": "commercial"
-  },
-  "transport": {
-    "cars": "cars",
-    "auto_parts": "auto_parts",
-    "wheels": "wheels",
-    "moto": "moto",
-    "moto_parts": "moto_parts",
-    "other_transport": "other_transport",
-    "buses": "buses",
-    "trucks": "trucks",
-    "trailers": "trailers",
-    "special_machinery": "special_machinery",
-    "agro_machinery": "agro_machinery",
-    "parts_special_agro": "parts_special_agro",
-    "water_transport": "water_transport",
-    "other_parts": "other_parts"
-  },
-  "jobs": {
-    "retail_sales": "retail_sales",
-    "logistics": "logistics",
-    "construction": "construction",
-    "bars_restaurants": "bars_restaurants",
-    "law_finance": "law_finance",
-    "security": "security",
-    "domestic_staff": "domestic_staff",
-    "beauty_sport": "beauty_sport",
-    "tourism": "tourism",
-    "education": "education",
-    "art": "art",
-    "medicine": "medicine",
-    "it_telecom": "it_telecom",
-    "real_estate_jobs": "real_estate_jobs",
-    "marketing": "marketing",
-    "manufacturing": "manufacturing",
-    "management": "management",
-    "car_service": "car_service",
-    "services_misc": "services_misc",
-    "other_jobs": "other_jobs"
-  },
-  "animals": {
-    "dogs": "dogs",
-    "cats": "cats",
-    "aquarium": "aquarium",
-    "birds": "birds",
-    "rodents": "rodents",
-    "farm_animals": "farm_animals",
-    "pet_supplies": "pet_supplies",
-    "adoption": "adoption",
-    "lost_found": "lost_found",
-    "other_animals": "other_animals"
-  },
-  "home_garden": {
-    "furniture": "furniture",
-    "garden": "garden",
-    "interior": "interior",
-    "building": "building",
-    "tools": "tools",
-    "houseplants": "houseplants",
-    "kitchen": "kitchen",
-    "garden_tools": "garden_tools",
-    "household": "household",
-    "stationery": "stationery",
-    "food_drinks": "food_drinks",
-    "other_home": "other_home"
-  },
-  "electronics": {
-    "computers": "computers",
-    "photo_video": "photo_video",
-    "tv_video": "tv_video",
-    "audio": "audio",
-    "games": "games",
-    "home_appliances": "home_appliances",
-    "kitchen_appliances": "kitchen_appliances",
-    "climate": "climate",
-    "personal_care": "personal_care",
-    "accessories": "accessories",
-    "other_electronics": "other_electronics"
-  },
-  "business_services": {
-    "beauty_health": "beauty_health",
-    "cleaning": "cleaning",
-    "household_services": "household_services",
-    "nannies": "nannies",
-    "equipment_sale": "equipment_sale",
-    "business_sale": "business_sale",
-    "raw_materials": "raw_materials",
-    "repair_services": "repair_services",
-    "transport_services": "transport_services",
-    "rental": "rental",
-    "construction_services": "construction_services",
-    "business_marketing": "business_marketing",
-    "education_services": "education_services",
-    "finance_services": "finance_services",
-    "pet_services": "pet_services",
-    "translation": "translation",
-    "events": "events",
-    "tourism_services": "tourism_services",
-    "legal_services": "legal_services",
-    "food_delivery": "food_delivery",
-    "sports_facilities": "sports_facilities",
-    "other_services": "other_services"
-  },
-  "fashion": {
-    "wedding": "wedding",
-    "misc_fashion": "misc_fashion",
-    "watches": "watches",
-    "accessories": "accessories",
-    "gifts": "gifts",
-    "beauty_health_fashion": "beauty_health_fashion"
-  },
-  "hobby_sport": {
-    "musical_instruments": "musical_instruments",
-    "other_hobby": "other_hobby",
-    "sport_rest": "sport_rest",
-    "books": "books",
-    "media": "media",
-    "tickets": "tickets"
-  }
+        "kids_clothing": {
+            "tshirts": "tshirts",
+            "pants": "pants",
+            "jackets": "jackets"
+        },
+        "kids_shoes": {
+            "sneakers": "sneakers",
+            "sandals": "sandals",
+            "boots": "boots"
+        },
+        "strollers": {
+            "single": "single",
+            "double": "double",
+            "travel": "travel"
+        },
+        "car_seats": {
+            "infant": "infant",
+            "convertible": "convertible",
+            "booster": "booster"
+        },
+        "kids_furniture": {
+            "beds": "beds",
+            "wardrobes": "wardrobes",
+            "desks": "desks"
+        },
+        "toys": {
+            "soft_toys": "soft_toys",
+            "educational": "educational",
+            "outdoor": "outdoor"
+        },
+        "kids_transport": {
+            "bicycles": "bicycles",
+            "scooters": "scooters",
+            "cars": "cars"
+        },
+        "feeding": {
+            "bottles": "bottles",
+            "high_chairs": "high_chairs",
+            "tableware": "tableware"
+        },
+        "school_goods": {
+            "backpacks": "backpacks",
+            "stationery": "stationery",
+            "uniforms": "uniforms"
+        },
+        "other_kids": {
+            "misc": "misc"
+        }
+    },
+    "real_estate": {
+        "apartments": {
+            "one_bedroom": "one_bedroom",
+            "two_bedroom": "two_bedroom",
+            "studios": "studios"
+        },
+        "houses": {
+            "cottage": "cottage",
+            "villa": "villa",
+            "townhouse": "townhouse"
+        },
+        "land": {
+            "residential": "residential",
+            "commercial": "commercial"
+        },
+        "garages": {
+            "garage": "garage",
+            "parking_spot": "parking_spot"
+        },
+        "commercial": {
+            "office": "office",
+            "shop": "shop",
+            "warehouse": "warehouse"
+        }
+    },
+    "transport": {
+        "cars": {
+            "sedans": "sedans",
+            "hatchbacks": "hatchbacks",
+            "suvs": "suvs"
+        },
+        "auto_parts": {
+            "engines": "engines",
+            "batteries": "batteries",
+            "lights": "lights"
+        },
+        "wheels": {
+            "tires": "tires",
+            "rims": "rims",
+            "full_sets": "full_sets"
+        },
+        "moto": {
+            "sport": "sport",
+            "cruiser": "cruiser",
+            "scooter": "scooter"
+        },
+        "moto_parts": {
+            "helmets": "helmets",
+            "tires_moto": "tires_moto",
+            "accessories_moto": "accessories_moto"
+        },
+        "other_transport": {
+            "caravans": "caravans",
+            "buggies": "buggies"
+        },
+        "buses": {
+            "minibuses": "minibuses",
+            "city_buses": "city_buses"
+        },
+        "trucks": {
+            "light_trucks": "light_trucks",
+            "heavy_trucks": "heavy_trucks"
+        },
+        "trailers": {
+            "cargo": "cargo",
+            "boat": "boat"
+        },
+        "special_machinery": {
+            "excavators": "excavators",
+            "tractors": "tractors"
+        },
+        "agro_machinery": {
+            "harvesters": "harvesters",
+            "seeders": "seeders"
+        },
+        "parts_special_agro": {
+            "filters": "filters",
+            "hydraulics": "hydraulics"
+        },
+        "water_transport": {
+            "boats": "boats",
+            "jet_ski": "jet_ski"
+        },
+        "other_parts": {
+            "misc_auto": "misc_auto"
+        }
+    }
 }
