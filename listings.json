@@ -24,5 +24,29 @@
     "expiresAt": "2025-08-04T19:49:41.831Z",
     "laptopModel": "asdas",
     "laptopScreenSize": 15
+  },
+  {
+    "id": "1751747214005",
+    "title": "sdf",
+    "description": "sdfsf",
+    "category": "animals",
+    "subcategory": "rodents",
+    "subsubcategory": "guinea_pigs",
+    "photos": [
+      "https://raw.githubusercontent.com/tstudio2000/baba/main/images/1751747214005_1.jpg"
+    ],
+    "dealType": "sell",
+    "price": 54352,
+    "currency": "UZS",
+    "isNegotiable": false,
+    "sellerType": "private",
+    "condition": "new",
+    "autoRenew": true,
+    "location": "vuadil",
+    "contactName": "122",
+    "contactEmail": "asda",
+    "contactPhone": "421",
+    "createdAt": "2025-07-05T20:26:55.388Z",
+    "expiresAt": "2025-08-04T20:26:55.388Z"
   }
 ]
