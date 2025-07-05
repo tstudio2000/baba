@@ -1,1 +1,28 @@
-[]
+[
+  {
+    "id": "1751744980035",
+    "title": "ATYASDT",
+    "description": "dsasda",
+    "category": "electronics",
+    "subcategory": "computers",
+    "subsubcategory": "laptops",
+    "photos": [
+      "https://raw.githubusercontent.com/tstudio2000/baba/main/images/1751744980035_1.jpg"
+    ],
+    "dealType": "sell",
+    "price": 2112521511251,
+    "currency": "UZS",
+    "isNegotiable": true,
+    "sellerType": "private",
+    "condition": "used",
+    "autoRenew": true,
+    "location": "nurafshan",
+    "contactName": "Andrew Kasual",
+    "contactEmail": null,
+    "contactPhone": "+998 8999175685",
+    "createdAt": "2025-07-05T19:49:41.831Z",
+    "expiresAt": "2025-08-04T19:49:41.831Z",
+    "laptopModel": "asdas",
+    "laptopScreenSize": 15
+  }
+]
