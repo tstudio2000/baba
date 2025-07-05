@@ -1,8 +1,8 @@
 [
   {
     "id": "1751387914977",
-    "title": "фывфвфывф",
-    "description": "daывфывфвфвфывфы",
+    "title": "ÑÑÐ²ÑÐ²ÑÑÐ²Ñ",
+    "description": "daÑÐ²ÑÑÐ²ÑÐ²ÑÐ²ÑÑÐ²ÑÑ",
     "category": "real_estate",
     "subcategory": "houses",
     "photos": [
@@ -15,10 +15,32 @@
     "sellerType": "private",
     "autoRenew": true,
     "location": "",
-    "contactName": "12ыфв",
-    "contactEmail": "фывф",
-    "contactPhone": "фыв2",
+    "contactName": "12ÑÑÐ²",
+    "contactEmail": "ÑÑÐ²Ñ",
+    "contactPhone": "ÑÑÐ²2",
     "createdAt": "2025-07-01T16:38:36.788Z",
     "expiresAt": "2025-07-31T16:38:36.789Z"
+  },
+  {
+    "id": "1751723845346",
+    "title": "asdasd",
+    "description": "2141sa",
+    "category": "hobby_sport",
+    "subcategory": "sport_rest",
+    "subsubcategory": "outdoor",
+    "photos": [],
+    "dealType": "sell",
+    "price": 12125125125,
+    "currency": "UZS",
+    "isNegotiable": true,
+    "sellerType": "private",
+    "condition": "new",
+    "autoRenew": true,
+    "location": "kattaqurgan",
+    "contactName": "12",
+    "contactEmail": "asdd",
+    "contactPhone": "asdas123123",
+    "createdAt": "2025-07-05T13:57:25.874Z",
+    "expiresAt": "2025-08-04T13:57:25.875Z"
   }
 ]
