@@ -59,5 +59,30 @@
     "jobEmploymentType": "full_time",
     "jobRemote": null,
     "jobOnlineRecruitment": null
+  },
+  {
+    "id": "1751795972239",
+    "title": "aфвфыв",
+    "description": "12312яЙЯч",
+    "category": "electronics",
+    "subcategory": "audio",
+    "subsubcategory": "headphones",
+    "photos": [
+      "https://raw.githubusercontent.com/tstudio2000/baba/main/images/1751795972239_1.jpg"
+    ],
+    "dealType": "sell",
+    "price": 5252,
+    "currency": "UZS",
+    "isNegotiable": false,
+    "sellerType": "private",
+    "condition": "new",
+    "autoRenew": false,
+    "location": "asaka",
+    "contactName": "122",
+    "contactEmail": "фыв",
+    "contactPhone": "421",
+    "creatorUsername": "12",
+    "createdAt": "2025-07-06T09:59:33.936Z",
+    "expiresAt": "2025-08-05T09:59:33.936Z"
   }
 ]
