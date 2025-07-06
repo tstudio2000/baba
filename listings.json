@@ -48,5 +48,34 @@
     "contactPhone": "421",
     "createdAt": "2025-07-05T20:26:55.388Z",
     "expiresAt": "2025-08-04T20:26:55.388Z"
+  },
+  {
+    "id": "1751790404804",
+    "title": "фывфвы",
+    "description": "фывфв",
+    "category": "jobs",
+    "subcategory": "bars_restaurants",
+    "subsubcategory": "chefs",
+    "photos": [
+      "https://raw.githubusercontent.com/tstudio2000/baba/main/images/1751790404804_1.jpg"
+    ],
+    "dealType": null,
+    "price": 1561512,
+    "currency": "UZS",
+    "isNegotiable": false,
+    "sellerType": null,
+    "condition": null,
+    "autoRenew": true,
+    "location": "vuadil",
+    "contactName": "122",
+    "contactEmail": null,
+    "contactPhone": "421",
+    "createdAt": "2025-07-06T08:26:46.622Z",
+    "expiresAt": "2025-08-05T08:26:46.622Z",
+    "jobApplicationLink": "фыв",
+    "jobType": "permanent",
+    "jobEmploymentType": "full_time",
+    "jobRemote": null,
+    "jobOnlineRecruitment": null
   }
 ]
