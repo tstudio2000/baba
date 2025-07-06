@@ -1,36 +1,5 @@
 [
   {
-    "id": "1751793849623",
-    "title": "asda11",
-    "description": "sd141o",
-    "category": "transport",
-    "subcategory": "wheels",
-    "subsubcategory": "winter_tires",
-    "photos": [
-      "https://raw.githubusercontent.com/tstudio2000/baba/main/images/1751793849623_1.jpg",
-      "https://raw.githubusercontent.com/tstudio2000/baba/main/images/1751793849623_2.jpg"
-    ],
-    "dealType": "sell",
-    "price": 9999,
-    "currency": "UZS",
-    "isNegotiable": true,
-    "sellerType": "business",
-    "condition": "used",
-    "autoRenew": true,
-    "location": "akkurgan",
-    "contactName": "1225",
-    "contactEmail": "5",
-    "contactPhone": "4215",
-    "creatorUsername": "12",
-    "createdAt": "2025-07-06T09:24:10.461Z",
-    "expiresAt": "2025-08-05T09:24:10.461Z",
-    "jobApplicationLink": "sada",
-    "jobType": "permanent",
-    "jobEmploymentType": "full_time",
-    "jobRemote": true,
-    "jobOnlineRecruitment": true
-  },
-  {
     "id": "1751795291943",
     "title": "asd",
     "description": "12",
