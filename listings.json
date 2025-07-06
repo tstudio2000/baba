@@ -51,8 +51,8 @@
   },
   {
     "id": "1751790404804",
-    "title": "фывфвы",
-    "description": "фывфв",
+    "title": "ÑÑÐ²ÑÐ²Ñ",
+    "description": "ÑÑÐ²ÑÐ²",
     "category": "jobs",
     "subcategory": "bars_restaurants",
     "subsubcategory": "chefs",
@@ -72,10 +72,34 @@
     "contactPhone": "421",
     "createdAt": "2025-07-06T08:26:46.622Z",
     "expiresAt": "2025-08-05T08:26:46.622Z",
-    "jobApplicationLink": "фыв",
+    "jobApplicationLink": "ÑÑÐ²",
     "jobType": "permanent",
     "jobEmploymentType": "full_time",
     "jobRemote": null,
     "jobOnlineRecruitment": null
+  },
+  {
+    "id": "1751792792421",
+    "title": "123",
+    "description": "12",
+    "category": "animals",
+    "subcategory": "pet_supplies",
+    "subsubcategory": "beds",
+    "photos": [
+      "https://raw.githubusercontent.com/tstudio2000/baba/main/images/1751792792421_1.jpg"
+    ],
+    "dealType": "sell",
+    "price": 124,
+    "currency": "UZS",
+    "isNegotiable": true,
+    "sellerType": "private",
+    "condition": "new",
+    "autoRenew": true,
+    "location": "karashina",
+    "contactName": "122",
+    "contactEmail": "123",
+    "contactPhone": "421",
+    "createdAt": "2025-07-06T09:06:34.609Z",
+    "expiresAt": "2025-08-05T09:06:34.609Z"
   }
 ]
