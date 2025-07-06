@@ -51,8 +51,8 @@
   },
   {
     "id": "1751790404804",
-    "title": "ÑÑÐ²ÑÐ²Ñ",
-    "description": "ÑÑÐ²ÑÐ²",
+    "title": "ÃÂÃÂÃÂ²ÃÂÃÂ²ÃÂ",
+    "description": "ÃÂÃÂÃÂ²ÃÂÃÂ²",
     "category": "jobs",
     "subcategory": "bars_restaurants",
     "subsubcategory": "chefs",
@@ -72,7 +72,7 @@
     "contactPhone": "421",
     "createdAt": "2025-07-06T08:26:46.622Z",
     "expiresAt": "2025-08-05T08:26:46.622Z",
-    "jobApplicationLink": "ÑÑÐ²",
+    "jobApplicationLink": "ÃÂÃÂÃÂ²",
     "jobType": "permanent",
     "jobEmploymentType": "full_time",
     "jobRemote": null,
@@ -101,5 +101,35 @@
     "contactPhone": "421",
     "createdAt": "2025-07-06T09:06:34.609Z",
     "expiresAt": "2025-08-05T09:06:34.609Z"
+  },
+  {
+    "id": "1751793849623",
+    "title": "asda",
+    "description": "sd141",
+    "category": "jobs",
+    "subcategory": "bars_restaurants",
+    "subsubcategory": "waiters",
+    "photos": [
+      "https://raw.githubusercontent.com/tstudio2000/baba/main/images/1751793849623_1.jpg"
+    ],
+    "dealType": null,
+    "price": 515125121,
+    "currency": "UZS",
+    "isNegotiable": false,
+    "sellerType": null,
+    "condition": null,
+    "autoRenew": true,
+    "location": "vobkent",
+    "contactName": "122",
+    "contactEmail": null,
+    "contactPhone": "421",
+    "creatorUsername": "12",
+    "createdAt": "2025-07-06T09:24:10.461Z",
+    "expiresAt": "2025-08-05T09:24:10.461Z",
+    "jobApplicationLink": "sada",
+    "jobType": "permanent",
+    "jobEmploymentType": "full_time",
+    "jobRemote": true,
+    "jobOnlineRecruitment": true
   }
 ]
