@@ -42,7 +42,7 @@
     "dealType": "sell",
     "price": 5252,
     "currency": "UZS",
-    "isNegotiable": true,
+    "isNegotiable": false,
     "sellerType": "private",
     "condition": "new",
     "autoRenew": true,
