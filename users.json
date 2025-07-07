@@ -2,6 +2,9 @@
   {
     "username": "12",
     "password": "12",
-    "createdAt": "2025-07-07T14:59:52.191Z"
+    "createdAt": "2025-07-07T14:59:52.191Z",
+    "name": "",
+    "phone": "",
+    "profilePhoto": ""
   }
 ]
