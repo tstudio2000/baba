@@ -26,8 +26,8 @@
     "jobApplicationLink": null,
     "jobType": "permanent",
     "jobEmploymentType": "full_time",
-    "jobRemote": null,
-    "jobOnlineRecruitment": null
+    "jobRemote": true,
+    "jobOnlineRecruitment": true
   },
   {
     "id": "1751795972239",
