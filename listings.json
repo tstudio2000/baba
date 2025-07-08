@@ -15,14 +15,14 @@
     "isNegotiable": true,
     "sellerType": "private",
     "condition": "new",
-    "autoRenew": true,
+    "autoRenew": false,
     "location": "asaka",
     "contactName": "122",
     "contactEmail": "фыв",
     "contactPhone": "421",
     "creatorUsername": "12",
     "createdAt": "2025-07-06T09:59:33.936Z",
-    "expiresAt": "2025-08-06T09:55:11.990Z"
+    "expiresAt": "2025-07-08T20:14:45.973Z"
   },
   {
     "id": "1752004058106",
