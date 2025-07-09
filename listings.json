@@ -49,30 +49,5 @@
     "creatorUsername": "12",
     "createdAt": "2025-07-08T19:47:41.257Z",
     "expiresAt": "2025-08-08T03:09:29.513Z"
-  },
-  {
-    "id": "1752072879814",
-    "title": "asas4asdasdasd asdasd",
-    "description": "asdasdasdasasdasdasdadadadasdasdasdasasdasdasdadadadasdasdasdasasdasdasdadadad",
-    "category": "real_estate",
-    "subcategory": "houses",
-    "subsubcategory": "villas",
-    "photos": [
-      "https://raw.githubusercontent.com/tstudio2000/baba/main/images/1752072879814_1.jpg"
-    ],
-    "dealType": "sell",
-    "price": 16121512,
-    "currency": "UZS",
-    "isNegotiable": true,
-    "sellerType": "private",
-    "condition": "new",
-    "autoRenew": true,
-    "location": "tashkent.sergeli",
-    "contactName": "12",
-    "contactEmail": null,
-    "contactPhone": "2",
-    "creatorUsername": "12",
-    "createdAt": "2025-07-09T14:54:41.619Z",
-    "expiresAt": "2025-08-08T14:54:41.620Z"
   }
 ]
