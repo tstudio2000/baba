@@ -49,5 +49,30 @@
     "creatorUsername": "12",
     "createdAt": "2025-07-08T19:47:41.257Z",
     "expiresAt": "2025-08-08T03:09:29.513Z"
+  },
+  {
+    "id": "1752072998342",
+    "title": "asdasdasdasasdasdasdadadad",
+    "description": "asdasdasdasasdasdasdadadadasdasdasdasasdasdasdadadad",
+    "category": "real_estate",
+    "subcategory": "houses",
+    "subsubcategory": "country_houses",
+    "photos": [
+      "https://raw.githubusercontent.com/tstudio2000/baba/main/images/1752072998342_1.jpg"
+    ],
+    "dealType": "sell",
+    "price": 1612123,
+    "currency": "UZS",
+    "isNegotiable": true,
+    "sellerType": "private",
+    "condition": "new",
+    "autoRenew": true,
+    "location": "tashkent_city.karasu",
+    "contactName": "12",
+    "contactEmail": null,
+    "contactPhone": "2",
+    "creatorUsername": "12",
+    "createdAt": "2025-07-09T14:56:40.028Z",
+    "expiresAt": "2025-08-08T14:56:40.028Z"
   }
 ]
