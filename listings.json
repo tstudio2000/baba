@@ -41,13 +41,13 @@
     "isNegotiable": true,
     "sellerType": "private",
     "condition": "new",
-    "autoRenew": false,
+    "autoRenew": true,
     "location": "altynkyl",
     "contactName": "12",
     "contactEmail": "121",
     "contactPhone": "2",
     "creatorUsername": "12",
     "createdAt": "2025-07-08T19:47:41.257Z",
-    "expiresAt": "2025-07-09T03:09:22.686Z"
+    "expiresAt": "2025-08-08T03:09:29.513Z"
   }
 ]
