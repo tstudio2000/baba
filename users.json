@@ -6,5 +6,10 @@
     "name": "12",
     "phone": "2",
     "profilePhoto": "https://raw.githubusercontent.com/tstudio2000/baba/main/profile_photos/12.jpg"
+  },
+  {
+    "username": "`${console.log(1000)}`",
+    "password": "12",
+    "createdAt": "2025-07-12T17:23:51.162Z"
   }
 ]
