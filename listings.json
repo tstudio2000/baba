@@ -75,5 +75,32 @@
     "creatorUsername": "12",
     "createdAt": "2025-07-09T14:56:40.028Z",
     "expiresAt": "2025-08-08T14:56:40.028Z"
+  },
+  {
+    "id": "1752300228425",
+    "title": "2asdaasdasdasdasad",
+    "description": "asdasdadas12312wszcxsctfcqqascqscqc",
+    "category": "real_estate",
+    "subcategory": "apartments",
+    "subsubcategory": "1_bedroom",
+    "photos": [
+      "https://raw.githubusercontent.com/tstudio2000/baba/main/images/1752300228425_1.jpg"
+    ],
+    "dealType": "sell",
+    "price": 1,
+    "currency": "UZS",
+    "isNegotiable": true,
+    "sellerType": "private",
+    "condition": "new",
+    "autoRenew": true,
+    "location": "andijan.altynkyl",
+    "contactName": "12",
+    "contactEmail": null,
+    "contactPhone": "2",
+    "creatorUsername": "12",
+    "createdAt": "2025-07-12T06:03:49.591Z",
+    "expiresAt": "2025-08-11T06:03:49.591Z",
+    "apartmentArea": 124,
+    "apartmentRooms": "3plus_bedroom"
   }
 ]
