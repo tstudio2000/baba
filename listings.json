@@ -24,5 +24,30 @@
     "creatorUsername": "12",
     "createdAt": "2025-07-12T08:19:47.408Z",
     "expiresAt": "2025-08-11T08:19:47.408Z"
+  },
+  {
+    "id": "1752337373321",
+    "title": "аваыавфывффвфвфвыфвфыв",
+    "description": "аваыавфывффвфвфвыфвфываваыавфывффвфвфвыфвфыв",
+    "category": "fashion",
+    "subcategory": "accessories",
+    "subsubcategory": "belts",
+    "photos": [
+      "https://raw.githubusercontent.com/tstudio2000/baba/main/images/1752337373321_1.jpg"
+    ],
+    "dealType": "sell",
+    "price": 123776232,
+    "currency": "UZS",
+    "isNegotiable": true,
+    "sellerType": "private",
+    "condition": "new",
+    "autoRenew": true,
+    "location": "tashkent.mirabad",
+    "contactName": "12",
+    "contactEmail": null,
+    "contactPhone": "2",
+    "creatorUsername": "12",
+    "createdAt": "2025-07-12T16:22:55.254Z",
+    "expiresAt": "2025-08-11T16:22:55.254Z"
   }
 ]
