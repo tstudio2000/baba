@@ -25,32 +25,6 @@
     "expiresAt": "2025-08-11T06:01:23.660Z"
   },
   {
-    "id": "1752004058106",
-    "title": "1231231231313123111111121311111111111111113131312313123124512524saed12esadad23r4q1121swq123231ww",
-    "description": "asdasddasdasdasdasdasdasdasdadasda",
-    "category": "real_estate",
-    "subcategory": "houses",
-    "subsubcategory": "cottages",
-    "photos": [
-      "https://raw.githubusercontent.com/tstudio2000/baba/main/images/1752004058106_1.jpg",
-      "https://raw.githubusercontent.com/tstudio2000/baba/main/images/1752004058106_2.jpg"
-    ],
-    "dealType": "sell",
-    "price": 12512512,
-    "currency": "UZS",
-    "isNegotiable": true,
-    "sellerType": "private",
-    "condition": "new",
-    "autoRenew": true,
-    "location": "tashkent.mirzo_ulugbek",
-    "contactName": "12",
-    "contactEmail": "121",
-    "contactPhone": "2",
-    "creatorUsername": "12",
-    "createdAt": "2025-07-08T19:47:41.257Z",
-    "expiresAt": "2025-08-08T20:21:33.163Z"
-  },
-  {
     "id": "1752072998342",
     "title": "asdasdasdasasdasdasdadadad",
     "description": "asdasdasdasasdasdasdadadadasdasdasdasasdasdasdadadad",
