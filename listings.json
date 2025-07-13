@@ -26,31 +26,6 @@
     "expiresAt": "2025-08-12T09:17:56.910Z"
   },
   {
-    "id": "1752395719324",
-    "title": "asdasdadasdasdadasdasdad",
-    "description": "asdasdadasdasdadasdasdadasdasdadasdasdadasdasdad",
-    "category": "electronics",
-    "subcategory": "audio",
-    "subsubcategory": "headphones",
-    "photos": [
-      "https://raw.githubusercontent.com/tstudio2000/baba/main/images/1752395719324_1752398791384_1.jpg"
-    ],
-    "dealType": "sell",
-    "price": 25125121,
-    "currency": "UZS",
-    "isNegotiable": true,
-    "sellerType": "private",
-    "condition": "new",
-    "autoRenew": true,
-    "location": "tashkent.bektemir",
-    "contactName": "12",
-    "contactEmail": null,
-    "contactPhone": "2",
-    "creatorUsername": "12",
-    "createdAt": "2025-07-13T08:35:20.654Z",
-    "expiresAt": "2025-08-12T08:35:20.655Z"
-  },
-  {
     "id": "1752425590772",
     "title": "asdasdasdasdasdasdasd",
     "description": "asdasdasdasdasdasdadasdasdasdasdasd",
