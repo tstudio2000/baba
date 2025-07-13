@@ -16,14 +16,14 @@
     "isNegotiable": true,
     "sellerType": "private",
     "condition": "new",
-    "autoRenew": true,
+    "autoRenew": false,
     "location": "fergana.vuadil",
     "contactName": "12",
     "contactEmail": null,
     "contactPhone": "2",
     "creatorUsername": "12",
     "createdAt": "2025-07-12T08:19:47.408Z",
-    "expiresAt": "2025-08-11T08:19:47.408Z"
+    "expiresAt": "2025-07-13T09:17:46.379Z"
   },
   {
     "id": "1752395719324",
