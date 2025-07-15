@@ -1,1 +1,27 @@
-[]
+[
+  {
+    "id": "1752566383317",
+    "title": "Монитор Full HD 4K",
+    "description": "Монитор Full HD 4K. хороший монитор IPS матрица 220V hdmi dvi",
+    "category": "electronics",
+    "subcategory": "computers",
+    "subsubcategory": "components",
+    "photos": [
+      "https://raw.githubusercontent.com/tstudio2000/baba/main/images/1752566383317_1.jpg"
+    ],
+    "dealType": "sell",
+    "price": 800000,
+    "currency": "UZS",
+    "isNegotiable": true,
+    "sellerType": "private",
+    "condition": "used",
+    "autoRenew": true,
+    "location": "tashkent_city.nurafshan",
+    "contactName": "12",
+    "contactEmail": null,
+    "contactPhone": "2",
+    "creatorUsername": "12",
+    "createdAt": "2025-07-15T07:59:44.928Z",
+    "expiresAt": "2025-08-14T07:59:44.929Z"
+  }
+]
