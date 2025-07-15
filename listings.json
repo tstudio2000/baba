@@ -26,36 +26,6 @@
     "expiresAt": "2025-08-12T09:17:56.910Z"
   },
   {
-    "id": "1752422590775",
-    "title": "asdasdasdasdasdasdasd",
-    "description": "asdasdasdasdasdasdadasdasdasdasdasd",
-    "category": "animals",
-    "subcategory": "farm_animals",
-    "subsubcategory": "chickens",
-    "photos": [
-      "https://raw.githubusercontent.com/tstudio2000/baba/main/images/1752422590775_1752522574062_1.jpg"
-    ],
-    "dealType": null,
-    "price": 120000,
-    "currency": "UZS",
-    "isNegotiable": false,
-    "sellerType": null,
-    "condition": null,
-    "autoRenew": false,
-    "location": "tashkent_city.almalyk",
-    "contactName": "12",
-    "contactEmail": null,
-    "contactPhone": "2",
-    "creatorUsername": "12",
-    "createdAt": "2025-07-13T16:53:12.589Z",
-    "expiresAt": "2025-08-12T16:53:12.590Z",
-    "jobApplicationLink": "adasdasdasdasdad",
-    "jobType": "permanent",
-    "jobEmploymentType": "full_time",
-    "jobRemote": true,
-    "jobOnlineRecruitment": true
-  },
-  {
     "id": "1752425590779",
     "title": "asdasdasdasdasdasdasd",
     "description": "asdasdasdasdasdasdadasdasdasdasdasd",
