@@ -16,14 +16,14 @@
     "isNegotiable": true,
     "sellerType": "private",
     "condition": "used",
-    "autoRenew": true,
+    "autoRenew": false,
     "location": "tashkent_city.nurafshan",
     "contactName": "12",
     "contactEmail": null,
     "contactPhone": "2",
     "creatorUsername": "12",
     "createdAt": "2025-07-15T07:59:44.928Z",
-    "expiresAt": "2025-08-14T07:59:44.929Z"
+    "expiresAt": "2025-07-16T07:22:44.352Z"
   },
   {
     "id": "1752566624709",
