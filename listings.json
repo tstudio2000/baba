@@ -49,5 +49,30 @@
     "creatorUsername": "12",
     "createdAt": "2025-07-15T08:03:46.413Z",
     "expiresAt": "2025-08-14T08:03:46.413Z"
+  },
+  {
+    "id": "1752650537792",
+    "title": "афыафыафыафыафы",
+    "description": "афыафыафыафыафыафыафыафыафыафыафыафы",
+    "category": "electronics",
+    "subcategory": "computers",
+    "subsubcategory": "components",
+    "photos": [
+      "https://raw.githubusercontent.com/tstudio2000/baba/main/images/1752650537792_1.jpg"
+    ],
+    "dealType": "sell",
+    "price": 161612,
+    "currency": "UZS",
+    "isNegotiable": true,
+    "sellerType": "private",
+    "condition": "new",
+    "autoRenew": true,
+    "location": "tashkent_city.almalyk",
+    "contactName": "12",
+    "contactEmail": null,
+    "contactPhone": "2",
+    "creatorUsername": "12",
+    "createdAt": "2025-07-16T07:22:19.580Z",
+    "expiresAt": "2025-08-15T07:22:19.581Z"
   }
 ]
