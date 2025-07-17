@@ -102,5 +102,30 @@
     "creatorUsername": "12",
     "createdAt": "2025-07-17T11:05:02.473Z",
     "expiresAt": "2025-08-16T11:05:02.473Z"
+  },
+  {
+    "id": "1752769205214",
+    "title": "фвфывфвфывфвфывфв",
+    "description": "фывфвфвфвфывфывфсчяйцфыцфйвуйц уйц уйц уй цуйц ",
+    "category": "kids_world",
+    "subcategory": "kids_furniture",
+    "subsubcategory": "changing_tables",
+    "photos": [
+      "https://raw.githubusercontent.com/tstudio2000/baba/main/images/1752769205214_1.jpg"
+    ],
+    "dealType": "sell",
+    "price": 5124124,
+    "currency": "UZS",
+    "isNegotiable": false,
+    "sellerType": "private",
+    "condition": "new",
+    "autoRenew": true,
+    "location": "fergana.dangara",
+    "contactName": "человек",
+    "contactEmail": null,
+    "contactPhone": "+998 999175685",
+    "creatorUsername": "13",
+    "createdAt": "2025-07-17T16:20:07.333Z",
+    "expiresAt": "2025-08-16T16:20:07.333Z"
   }
 ]
