@@ -20,6 +20,9 @@
   {
     "username": "13",
     "password": "13",
-    "createdAt": "2025-07-17T16:18:27.716Z"
+    "createdAt": "2025-07-17T16:18:27.716Z",
+    "name": "человек",
+    "phone": "+998 999175685",
+    "profilePhoto": "https://raw.githubusercontent.com/tstudio2000/baba/main/profile_photos/13.jpg"
   }
 ]
