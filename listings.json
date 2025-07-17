@@ -60,7 +60,9 @@
     "category": "electronics",
     "subcategory": "computers",
     "subsubcategory": "laptops",
-    "photos": [],
+    "photos": [
+      "https://raw.githubusercontent.com/tstudio2000/baba/main/images/1752750249358_1752751884462_1.jpg"
+    ],
     "dealType": "sell",
     "price": 21512,
     "currency": "UZS",
