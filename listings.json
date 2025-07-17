@@ -52,5 +52,30 @@
     "expiresAt": "2025-08-14T08:03:46.413Z",
     "apartmentRooms": "studio",
     "apartmentArea": 16662
+  },
+  {
+    "id": "1752750249358",
+    "title": "adsadsaddasdadasdas213",
+    "description": "adasdsadasdsadasdsadasdsadasdsadasdsadasds",
+    "category": "electronics",
+    "subcategory": "computers",
+    "subsubcategory": "laptops",
+    "photos": [],
+    "dealType": "sell",
+    "price": 21512,
+    "currency": "UZS",
+    "isNegotiable": false,
+    "sellerType": "private",
+    "condition": "new",
+    "autoRenew": false,
+    "location": "bukhara.alat",
+    "contactName": "12",
+    "contactEmail": null,
+    "contactPhone": "2",
+    "creatorUsername": "12",
+    "createdAt": "2025-07-17T11:04:09.931Z",
+    "expiresAt": "2025-08-16T11:04:09.931Z",
+    "laptopModel": "21324",
+    "laptopScreenSize": 12312
   }
 ]
